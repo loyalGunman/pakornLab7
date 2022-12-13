@@ -14,7 +14,7 @@ int main(){
 	if(k>0){
         int i=0,result=0;
         while(i < 5000){
-            if(P[i]%k==0){
+            if(P[i]%k == 0){
                 result = result -P[i];
             }
             else{
