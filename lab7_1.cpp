@@ -33,7 +33,8 @@ string func3(string x){
 	return y;	
 }
 
-int main(){
+int main()
+{
   	    string txt1, txt2, txt3, txt4;
     cout << "Input text: ";
 	    cin >> txt1;
