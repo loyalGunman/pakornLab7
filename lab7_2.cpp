@@ -2,29 +2,36 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
 	
 	int i = 0, P[5000], k;
-	while(i < 5000){
+	while(i < 5000)
+	{
 		P[i] = 2*i+1;
 		i++;
 	}
     cout << "Please input k: ";
     cin >> k ;
-	if(k>0){
+	if(k>0)
+	{
         int i=0,result=0;
-        while(i < 5000){
-            if(P[i]%k == 0){
+        while(i < 5000)
+        {
+            if(P[i]%k==0)
+            {
                 result = result -P[i];
             }
-            else{
+            else
+            {
                 result = result + P[i];
             }
             i++;
         }
         cout << "Result = " << result;
     }	
-    else{
+    else
+    {
 		cout << "Invalid input!!!";
 	}
 	return 0;
